@@ -60,9 +60,13 @@
 
 ### 4.2 백엔드
 - RESTful API 구현
-- Node.js/Express.js 서버
-- MongoDB 데이터베이스
+- Spring Boot 기반 서버
+  * Spring Security
+  * Spring Data JPA
+  * Spring WebSocket
+- MySQL/PostgreSQL 데이터베이스
 - JWT 기반 인증
+- Swagger/OpenAPI 문서화
 
 ### 4.3 인프라
 - AWS 클라우드 호스팅
