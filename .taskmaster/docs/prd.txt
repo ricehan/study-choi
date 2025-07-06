@@ -54,9 +54,38 @@
 ## 4. 기술 요구사항
 
 ### 4.1 프론트엔드
-- React.js 기반 SPA 구현
-- 반응형 웹 디자인
-- 실시간 업데이트 (WebSocket)
+- Next.js 14+ (React 19 기반) 
+  * App Router & Server Components
+  * Streaming SSR
+  * React Server Actions
+  * Parallel/Intercepting Routes
+- 스타일링 및 UI
+  * Tailwind CSS 4.0
+  * Shadcn UI
+  * Framer Motion
+- 상태 관리
+  * TanStack Query v5 (서버 상태)
+  * Zustand (클라이언트 상태)
+- 개발 도구
+  * TypeScript 5.4+
+  * Vite
+  * ESLint + Prettier
+- 테스트
+  * Vitest
+  * Playwright
+  * MSW (API Mocking)
+- 성능 최적화
+  * Next Bundle Analyzer
+  * Lighthouse CI
+- 실시간 기능
+  * Socket.io
+  * Server-Sent Events
+- 접근성
+  * ARIA
+  * Radix UI Primitives
+- 국제화
+  * next-intl
+  * React-i18next
 
 ### 4.2 백엔드
 - RESTful API 구현
